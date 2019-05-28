@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q1{
+.p{
+  margin:auto;
+}
+
+.box-p1{
   width:900px;
   margin:auto;
   padding:20px;

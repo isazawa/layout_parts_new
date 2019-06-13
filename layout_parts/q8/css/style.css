@@ -2,4 +2,384 @@
 
 /* 回答はここに書いてね */
 
+.small{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.is-small{
+  font-size: 16px;
+  border-radius: 3px;
+  margin-left: 10px;
+  padding: 5px 15px;
+}
+
+.small-common{
+  background: #00bcd4;
+  color: white;
+}
+
+.small-error{
+  background: #ff4081;
+  color: white;
+}
+
+.small-disabled{
+  background: #e5e5e5;
+  color: white;
+}
+
+.small-shadow{
+  box-shadow:
+  0 1px 6px rgba(0,0,0,.12),
+  0 1px 4px rgba(0,0,0,.12);
+  color: #222;
+}
+
+.is-small :firstchild{
+  margin-left: 0;
+}
+
+
+
+.middle{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.is-middle{
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 6px 20px;
+}
+
+.middle-common{  
+  background: #00bcd4;
+  color: white;
+}
+
+.middle-error{
+  background: #ff4081;
+  color: white;
+}
+
+.middle-disabled{
+  background: #e5e5e5;
+  color: white;
+}
+
+.middle-shadow{
+  box-shadow:
+  0 1px 6px rgba(0,0,0,.12),
+  0 1px 4px rgba(0,0,0,.12);
+}
+
+
+
+
+.large{
+  display: flex;
+  justify-content: center;
+}
+
+.is-large{
+  font-size: 24px;
+  border-radius: 7px;
+  margin-left: 10px;
+  padding: 7px 25px;
+}
+
+
+.large-common{  
+  background: #00bcd4;
+  color: white;
+}
+
+.large-error{
+  background: #ff4081;
+  color: white;
+}
+
+.large-disabled{
+  background: #e5e5e5;
+  color: white;
+}
+
+.large-shadow{
+  box-shadow:
+  0 1px 6px rgba(0,0,0,.12),
+  0 1px 4px rgba(0,0,0,.12);
+}
+
+
+
+
+
+.q8_form{
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ecf1f2;
+}
+
+.q8_form_title{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.q8_form_title:before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.q8_form_title_text{
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ecf1f2;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q8_main{
+  float: left;
+  width: 300px;
+}
+
+.q8_side{
+  float: right;
+  width: 380px;
+}
+
+.q8_main_items{
+  margin-bottom: 20px;
+}
+
+ol,ul{
+  list-style: none;
+}
+
+.q8_main_bottom{
+  text-align: right;
+}
+
+.q8_main_items > li{
+  margin-top: 20px;
+}
+
+.q8_main_items > li:first-child{
+  margin-top:0;
+}
+
+
+.q8_main_items_title{
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.is-required{
+  color: #f00;
+}
+
+.q8_main_items_content{
+  float: right;
+  width: 180px;
+}
+
+.q8_input--init {
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.q8_input{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.q8_main_items_title{
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.q8_main_items_content{
+  float: right;
+  width: 180px;
+}
+
+.q8_radio{
+  cursor: pointer;
+}
+
+.q8_radio_btn{
+  display: none;
+}
+
+.q8_radio_text{
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.q8_radio_text:before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+
+.q8_select_body{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color:#fff;
+  font-size: 12px;
+  line-height:12px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.option{
+  font-weight: normal;
+  display: block;
+  white-space:pre;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+
+.q8_select:after{
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+
+.q8_checkbox_btn{
+  display: none;
+}
+
+.q8_checkbox_text{
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.q8_checkbox_text:before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+
+.q8_main_bottom{
+  text-align: right;
+}
+
+.q8_main_bottom_btn{
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.q8_side_text{
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.q8_checkbox{
+  text-align: right;
+}
+
+.q8_select{
+  position: relative;
+}
+
+.q8_radio_btn:checked + .q8_radio_text:after{
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00bcd4;
+  border-radius: 50px;
+  content: '';
+}
+
+.q8_checkbox_btn:checked + .q8_checkbox_text:after {
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    margin-top: -14px;
+    width: 8px;
+    height: 16px;
+    border-right: 3px solid #00BCD4;
+    border-bottom: 3px solid #00BCD4;
+    transform: rotate(45deg);
+    content: '';
+}
+
+
+
+
+
 /* 回答はここに書いてね */

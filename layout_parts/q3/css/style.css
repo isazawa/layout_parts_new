@@ -8,35 +8,43 @@ table{
   table-layout: auto;
 }
 
-.content{
+.q3-content{
   width:100%;
+  border: 1px solid #dedede;
+  table-layout: fixed;
 }
 
- .content th{
-   border:solid #dedede 1px;
+ .q3-content th{
    font-size:18px;
    line-height:26px;
    color:white;
    background-color:#2244aa;
-   padding:10px;
  }
 
- .content td{
-   border:solid #dedede 1px;
-   font-size:16px;
-   line-height:22px;
-   padding:10px 20px;
-   margin:auto;
-   text-align:center;
+ .q3-content th,
+ .q3-content td{
+  padding: 10px;
+  border: 1px solid #dedede;
+  vertical-align: middle;
  }
 
-tr:nth-child(odd){
+ .q3-content td{
+  line-height:22px;
+  text-align: center;
+ }
+
+tr:nth-child(even){
   background-color:#ecf1f2;
 }
 
-tr:last-child{
-  border-top:dashed #000 2px;
+.q3-content tbody tr:last-child {
+  border-top: dashed #000 2px;
 }
- 
+
+
+
+
+
+
 
 /* 回答はここに書いてね */

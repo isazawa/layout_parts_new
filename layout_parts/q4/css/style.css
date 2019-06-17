@@ -39,16 +39,15 @@
 }
 
 .q4_content .bottom-left{
-  width: 100px;
   background: #e5d32e;
 }
 
 .q4_content .bottom-middle{
-  width: 100px;
   background: #ec8f9a;
 }
 
 .q4_content .bottom-right{
+  width: 500px;
   background: #8fdcad;
 }
 

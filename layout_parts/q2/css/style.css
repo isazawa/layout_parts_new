@@ -4,28 +4,27 @@
 
 
 
-.box-p2{
+.p2-box{
   width: 900px;
   margin: auto;
   padding: 20px;
   background: #eff3f4;
 }
 
-.content-box1 img{
+.q2-content-left{
   float: left;
-  padding: 0px 20px 10px 0px;
+  margin: 0px 20px 10px 0px;
  }
 
-
-.content-box1 p{
+.q2-content-p{
   font-size: 18px;
   line-height: 22px;
   word-break:break-all;
 }
 
-.content-box2 img{
-  float:right;
-  padding: 0px 0px 10px 20px;
+.q2-content-right{
+  float: right;
+  margin: 0px 0px 10px 20px;
 }
 
 .content-box2 p{
@@ -34,11 +33,6 @@
   word-break:break-all;
 }
 
-.clearfix:after {
-  display: block;
-  content: "";
-  clear: both;
-}
 
 
 

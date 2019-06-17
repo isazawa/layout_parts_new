@@ -20,9 +20,10 @@
   background:#3274ae;
 }
 
-.q1-content:firsr-child{
-  margin-left:0;
+.q1-content:first-child{
+  margin-left: 0;
 }
+
 
 .q1-content-box{
   background:#eaf4ff;

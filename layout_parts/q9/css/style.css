@@ -25,11 +25,11 @@
 }
 
 .q9_trans:hover .q9_trans_desc {
-    bottom: 0;
+  bottom: 0;
 }
 
 .q9_trans:hover .q9_trans_thumb {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .q9_trans_desc_text{
@@ -43,7 +43,7 @@
   word-break: break-all;
 }
 
-.q9_anima{
+.q9_animation{
   width: 100px;
   height: 100px;
   margin: auto;
@@ -57,21 +57,5 @@
   0%{transform:rotate(0);}
   100%{transform:rotate(360deg);}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* 回答はここに書いてね *

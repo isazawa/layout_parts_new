@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.p{
-  margin:auto;
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
 }
 
 .box-p1{
@@ -24,21 +26,12 @@
   margin-left: 0;
 }
 
-
 .q1-content-box{
   background:#eaf4ff;
   padding:20px;
   border:solid 10px #022336;
   margin:0;
 }
-
-
-.clearfix:after {
-    display: block;
-    content: "";
-    clear: both;
-}
-
 
 
 /* 回答はここに書いてね */

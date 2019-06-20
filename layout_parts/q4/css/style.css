@@ -2,19 +2,19 @@
 
 /* 回答はここに書いてね */
 
-.q4{
+.q4_box{
   padding: 20px;
   box-sizing: border-box;
 }
 
-.q4_content{
+.is-content{
   display: table;
   margin-top: 20px;
   width: 100%;
   background-color: #ecf1f2;
 }
 
-.q4_content:first-child{
+.is-content:first-child{
   margin-top: 0;
 }
 
@@ -24,29 +24,29 @@
   text-align: center;
 }
 
-.q4_content .top-left{
+.is-content .top-left{
   width: 100px;
   background: #fdc8b8;
 }
 
-.q4_content .top-middle{
+.is-content .top-middle{
   background: #e0abd9;
 }
 
-.q4_content .top-right{
+.is-content .top-right{
   width: 100px;
   background: #b6d8ed;
 }
 
-.q4_content .bottom-left{
+.is-content .bottom-left{
   background: #e5d32e;
 }
 
-.q4_content .bottom-middle{
+.is-content .bottom-middle{
   background: #ec8f9a;
 }
 
-.q4_content .bottom-right{
+.is-content .bottom-right{
   width: 500px;
   background: #8fdcad;
 }

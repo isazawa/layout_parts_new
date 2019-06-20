@@ -2,24 +2,12 @@
 
 /* 回答はここに書いてね */
 
-.header-logo1{
+.header-logo{
   width:90px;
   background:#e6f2ff;
   text-align:center;
   margin: auto;
-  padding: 10px;
-}
-
-.header-logo2{
-  width: 90px;
-  background: #e6f2ff;
-  text-align:center;
-  margin: auto;
-  padding: 10px;
-}
-
-.q6{
-  display:table;
+  padding:10px 0 10px 0;
 }
 
 .content-1{
@@ -39,6 +27,10 @@
   width:300px;
   display: flex;
   justify-content: center;
+}
+
+.is-table{
+  display: table;
 }
 
 .content-2{
@@ -70,27 +62,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* 回答はここに書いてね */
 

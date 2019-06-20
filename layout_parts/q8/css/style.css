@@ -2,10 +2,15 @@
 
 /* 回答はここに書いてね */
 
-.small{
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.q8_btn{
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.q8--btn .q8_btn:first-of-type{
+  margin-left: 0;
 }
 
 .is-small{
@@ -150,6 +155,11 @@
   margin: 0;
 }
 
+
+
+
+
+
 .clearfix:after{
   display: block;
   content: "";
@@ -194,7 +204,7 @@ ol,ul{
   text-align: right;
 }
 
-.is-required{
+.q8_main_items_title .is-required{
   color: #f00;
 }
 
@@ -219,7 +229,7 @@ ol,ul{
   width: 100%;
   padding: 5px;
   border-radius: 3px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   font-size: 12px;
   line-height: 12px;
   box-sizing: border-box;
@@ -379,6 +389,18 @@ ol,ul{
 }
 
 
+.q8_main_bottom_btn:active{
+  background-color: #fff;
+  color: #00bcd4;
+}
+
+.q8_input:focus{
+  box-shadow:0 0 7px #00bcd4;
+}
+
+.q8_side_text:focus{
+  box-shadow: 0 0 7px #00bcd4;
+}
 
 
 

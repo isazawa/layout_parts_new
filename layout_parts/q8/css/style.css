@@ -25,22 +25,22 @@
   padding: 5px 15px;
 }
 
-.small-common {
+.is-common {
   background: #00bcd4;
   color: white;
 }
 
-.small-error {
+.is-error {
   background: #ff4081;
   color: white;
 }
 
-.small-disabled {
+.is-disabled {
   background: #e5e5e5;
   color: white;
 }
 
-.small-shadow {
+.is-shadow {
   box-shadow:
   0 1px 6px rgba(0,0,0,.12),
   0 1px 4px rgba(0,0,0,.12);
@@ -64,27 +64,6 @@
   padding: 6px 20px;
 }
 
-.middle-common {  
-  background: #00bcd4;
-  color: white;
-}
-
-.middle-error {
-  background: #ff4081;
-  color: white;
-}
-
-.middle-disabled {
-  background: #e5e5e5;
-  color: white;
-}
-
-.middle-shadow {
-  box-shadow:
-  0 1px 6px rgba(0,0,0,.12),
-  0 1px 4px rgba(0,0,0,.12);
-}
-
 .large {
   display: flex;
   justify-content: center;
@@ -95,27 +74,6 @@
   border-radius: 7px;
   margin-left: 10px;
   padding: 7px 25px;
-}
-
-.large-common {  
-  background: #00bcd4;
-  color: white;
-}
-
-.large-error {
-  background: #ff4081;
-  color: white;
-}
-
-.large-disabled {
-  background: #e5e5e5;
-  color: white;
-}
-
-.large-shadow {
-  box-shadow:
-  0 1px 6px rgba(0,0,0,.12),
-  0 1px 4px rgba(0,0,0,.12);
 }
 
 .q8_form {
@@ -311,6 +269,8 @@
   cursor: pointer;
   font-size: 16px;
   line-height: 26px;
+  outline: none;
+  border: none;
 }
 
 .q8_side_text {

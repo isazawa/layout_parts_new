@@ -1,131 +1,141 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
 
-.q8_btn{
+.q8_btn {
   display: inline-block;
   margin-left: 10px;
   text-align: center;
   cursor: pointer;
 }
 
-.q8--btn .q8_btn:first-of-type{
+.q8--btn .q8_btn:first-of-type {
   margin-left: 0;
 }
 
-.is-small{
+.is-small {
   font-size: 16px;
   border-radius: 3px;
   margin-left: 10px;
   padding: 5px 15px;
 }
 
-.small-common{
+.small-common {
   background: #00bcd4;
   color: white;
 }
 
-.small-error{
+.small-error {
   background: #ff4081;
   color: white;
 }
 
-.small-disabled{
+.small-disabled {
   background: #e5e5e5;
   color: white;
 }
 
-.small-shadow{
+.small-shadow {
   box-shadow:
   0 1px 6px rgba(0,0,0,.12),
   0 1px 4px rgba(0,0,0,.12);
   color: #222;
 }
 
-.is-small :firstchild{
+.is-small :firstchild {
   margin-left: 0;
 }
 
-.middle{
+.middle {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.is-middle{
+.is-middle {
   font-size: 20px;
   border-radius: 5px;
   margin-left: 10px;
   padding: 6px 20px;
 }
 
-.middle-common{  
+.middle-common {  
   background: #00bcd4;
   color: white;
 }
 
-.middle-error{
+.middle-error {
   background: #ff4081;
   color: white;
 }
 
-.middle-disabled{
+.middle-disabled {
   background: #e5e5e5;
   color: white;
 }
 
-.middle-shadow{
+.middle-shadow {
   box-shadow:
   0 1px 6px rgba(0,0,0,.12),
   0 1px 4px rgba(0,0,0,.12);
 }
 
-.large{
+.large {
   display: flex;
   justify-content: center;
 }
 
-.is-large{
+.is-large {
   font-size: 24px;
   border-radius: 7px;
   margin-left: 10px;
   padding: 7px 25px;
 }
 
-.large-common{  
+.large-common {  
   background: #00bcd4;
   color: white;
 }
 
-.large-error{
+.large-error {
   background: #ff4081;
   color: white;
 }
 
-.large-disabled{
+.large-disabled {
   background: #e5e5e5;
   color: white;
 }
 
-.large-shadow{
+.large-shadow {
   box-shadow:
   0 1px 6px rgba(0,0,0,.12),
   0 1px 4px rgba(0,0,0,.12);
 }
 
-.q8_form{
+.q8_form {
   width: 700px;
   margin: auto;
   padding: 20px;
   background-color: #ecf1f2;
 }
 
-.q8_form_title{
+
+
+
+
+
+.q8_form_title {
   position: relative;
   margin-bottom: 20px;
 }
 
-.q8_form_title:before{
+.q8_form_title:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -135,64 +145,49 @@
   content: "";
 }
 
-.q8_form_title_text{
+.q8_form_title_text {
   position: relative;
   display: inline-block;
   padding-right: 10px;
   background-color: #ecf1f2;
   font-size: 24px;
   font-weight: bold;
-  margin: 0;
 }
 
-.clearfix:after{
-  display: block;
-  content: "";
-  clear: both;
-}
-
-.q8_main{
+.q8_main {
   float: left;
   width: 300px;
 }
 
-.q8_side{
+.q8_side {
   float: right;
   width: 380px;
 }
 
-.q8_main_items{
+.q8_main_box {
   margin-bottom: 20px;
 }
 
-ol,ul{
-  list-style: none;
-}
-
-.q8_main_bottom{
-  text-align: right;
-}
-
-.q8_main_items > li{
+.q8_main_box > li {
   margin-top: 20px;
 }
 
-.q8_main_items > li:first-child{
+.q8_main_box > li:first-child {
   margin-top:0;
 }
 
-.q8_main_items_title{
+.q8_main_box_title {
   float: left;
   width: 100px;
   line-height: 25px;
   text-align: right;
 }
 
-.q8_main_items_title .is-required{
+.q8_main_box_title .is-required {
   color: #f00;
 }
 
-.q8_main_items_content{
+.q8_main_box_content {
   float: right;
   width: 180px;
 }
@@ -209,43 +204,43 @@ ol,ul{
   appearance: none;
 }
 
-.q8_input{
+.q8_input {
   width: 100%;
   padding: 5px;
   border-radius: 3px;
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   font-size: 12px;
   line-height: 12px;
   box-sizing: border-box;
 }
 
-.q8_main_items_title{
+.q8_main_box_title {
   float: left;
   width: 100px;
   line-height: 25px;
   text-align: right;
 }
 
-.q8_main_items_content{
+.q8_main_box_content {
   float: right;
   width: 180px;
 }
 
-.q8_radio{
+.q8_radio {
   cursor: pointer;
 }
 
-.q8_radio_btn{
+.q8_radio_btn {
   display: none;
 }
 
-.q8_radio_text{
+.q8_radio_text {
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 20px;
 }
 
-.q8_radio_text:before{
+.q8_radio_text:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -258,7 +253,7 @@ ol,ul{
   content: '';
 }
 
-.q8_select_body{
+.q8_select_body {
   width: 100%;
   padding: 5px;
   border-radius: 3px;
@@ -269,15 +264,8 @@ ol,ul{
   cursor: pointer;
 }
 
-.option{
-  font-weight: normal;
-  display: block;
-  white-space:pre;
-  min-height: 1.2em;
-  padding: 0px 2px 1px;
-}
 
-.q8_select:after{
+.q8_select:after {
   display: block;
   position: absolute;
   top: 4px;
@@ -291,17 +279,21 @@ ol,ul{
   pointer-events: none;
 }
 
-.q8_checkbox_btn{
+.q8_checkbox_btn {
   display: none;
 }
 
-.q8_checkbox_text{
+.q8_select {
+  position: relative;
+}
+
+.q8_checkbox_text {
   position: relative;
   display: inline-block;
   padding-left: 24px;
 }
 
-.q8_checkbox_text:before{
+.q8_checkbox_text:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -313,11 +305,10 @@ ol,ul{
   content: '';
 }
 
-.q8_main_bottom{
+.q8_main_bottom {
   text-align: right;
 }
-
-.q8_main_bottom_btn{
+.q8_main_bottom_btn {
   padding: 0 10px;
   border-radius: 5px;
   background-color: #00bcd4;
@@ -327,7 +318,7 @@ ol,ul{
   line-height: 26px;
 }
 
-.q8_side_text{
+.q8_side_text {
   width: 100%;
   height: 203px;
   padding: 10px;
@@ -338,15 +329,11 @@ ol,ul{
   resize: none;
 }
 
-.q8_checkbox{
+.q8_checkbox {
   text-align: right;
 }
 
-.q8_select{
-  position: relative;
-}
-
-.q8_radio_btn:checked + .q8_radio_text:after{
+.q8_radio_btn:checked + .q8_radio_text:after {
   position: absolute;
   top: 50%;
   left: 4px;
@@ -354,7 +341,7 @@ ol,ul{
   height: 8px;
   margin-top: -4px;
   background-color: #00bcd4;
-  border-radius: 50px;
+  border-radius: 50%;
   content: '';
 }
 
@@ -371,16 +358,16 @@ ol,ul{
   content: '';
 }
 
-.q8_main_bottom_btn:active{
+.q8_main_bottom_btn:active {
   background-color: #fff;
   color: #00bcd4;
 }
 
-.q8_input:focus{
+.q8_input:focus {
   box-shadow:0 0 7px #00bcd4;
 }
 
-.q8_side_text:focus{
+.q8_side_text:focus {
   box-shadow: 0 0 7px #00bcd4;
 }
 

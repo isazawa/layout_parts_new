@@ -7,30 +7,30 @@
   clear: both;
 }
 
-.box-p1{
-  width:900px;
-  margin:auto;
-  padding:20px;
-  background:#eff3f4;
+.box-p1 {
+  width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #eff3f4;
 }
 
-.q1-content{
-  width:230px;
-  padding:20px;
-  float:left;
-  margin-left:20px;
-  background:#3274ae;
+.q1-content {
+  width: 230px;
+  padding: 20px;
+  float: left;
+  margin-left: 20px;
+  background: #3274ae;
 }
 
-.q1-content:first-child{
+.q1-content:first-child {
   margin-left: 0;
 }
 
-.q1-content-box{
-  background:#eaf4ff;
-  padding:20px;
-  border:solid 10px #022336;
-  margin:0;
+.q1-content-box {
+  background: #eaf4ff;
+  padding: 20px;
+  border: solid 10px #022336;
+  margin: 0;
 }
 
 

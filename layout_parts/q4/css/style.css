@@ -2,51 +2,51 @@
 
 /* 回答はここに書いてね */
 
-.q4_box{
+.q4_box {
   padding: 20px;
   box-sizing: border-box;
 }
 
-.is-content{
+.is-content {
   display: table;
   margin-top: 20px;
   width: 100%;
   background-color: #ecf1f2;
 }
 
-.is-content:first-child{
+.is-content:first-child {
   margin-top: 0;
 }
 
-.q4_content_box{
+.q4_content_box {
   display: table-cell;
   padding: 20px;
   text-align: center;
 }
 
-.is-content .top-left{
+.is-content .top-left {
   width: 100px;
   background: #fdc8b8;
 }
 
-.is-content .top-middle{
+.is-content .top-middle {
   background: #e0abd9;
 }
 
-.is-content .top-right{
+.is-content .top-right {
   width: 100px;
   background: #b6d8ed;
 }
 
-.is-content .bottom-left{
+.is-content .bottom-left {
   background: #e5d32e;
 }
 
-.is-content .bottom-middle{
+.is-content .bottom-middle {
   background: #ec8f9a;
 }
 
-.is-content .bottom-right{
+.is-content .bottom-right {
   width: 500px;
   background: #8fdcad;
 }

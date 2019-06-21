@@ -2,52 +2,63 @@
 
 /* 回答はここに書いてね */
 
-.header-logo{
-  width:90px;
-  background:#e6f2ff;
-  text-align:center;
-  margin: auto;
-  padding:10px 0 10px 0;
+.q6__box .q6__box__text {
+  width: 90px;
+  background: #e6f2ff;
+  padding: 10px 0 10px 0;
 }
 
-.content-1{
+.q6__box.is-left .q6__box__left {
+  text-align: center;
+}
+
+.q6__box.is-left .q6__box__text {
+  display: inline-block;
+}
+
+.q6__box.is-right .q6__box__text {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content-table {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
-.content-1 p{
-  display:inline-block;
-  padding:10px;
-  background:#fff;
+.content-table p {
+  display: inline-block;
+  padding: 10px;
+  background: #fff;
 }
 
-.q6-box{
-  height:200px;
-  width:300px;
+.q6-box {
+  height: 200px;
+  width: 300px;
   display: flex;
   justify-content: center;
 }
 
-.is-table{
+.is-table {
   display: table;
 }
 
-.content-2{
+.content-flex {
   display: flex;
   align-items: center;
   }
 
-.content-2 p{
-  padding:10px;
-  background:#fff;
+.content-flex p {
+  padding: 10px;
+  background: #fff;
 }
 
-.q6--position > .q6__box {
+.q6--position .q6__box {
   position: relative;
 }
 
-.q6__box.is-stable > .q6__box__inner{
+.q6__box.is-content .q6__box__inner {
   margin: auto;
   position: absolute;
   top: 0;
@@ -56,7 +67,7 @@
   right: 0;
 }
 
-.q6__box.is-flexible > .q6__box__inner{
+.q6__box.is-side .q6__box__inner {
   position: absolute;
   top: 50%;
   left: 50%;
